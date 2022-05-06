@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">CryptoMonitor</string>
+    <string name="title">CryptoMonitor</string>
+    <string name="default_money_value_text">0,000</string>
+
+    <string name="default_timestamp_value">00:00:00 1/1/22</string>
+    <dimen name="default_timestamp_string_size">30sp</dimen>
+
+    <string name="default_button_text">Reload</string>
+
+
+    <dimen name="title_string_size">50sp</dimen>
+
 </resources>
