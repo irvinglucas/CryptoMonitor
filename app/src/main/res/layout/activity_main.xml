@@ -7,11 +7,12 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/app_name_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/title_string_size"
         android:textAlignment="center"
-        android:text="@string/title"/>
+        android:text="@string/app_name"/>
 
     <LinearLayout
         android:id="@+id/card_1"
@@ -139,7 +140,8 @@
             android:layout_marginLeft="@dimen/portrait_layout_margin_sides"
             android:layout_marginTop="20sp"
             android:layout_marginRight="@dimen/portrait_layout_margin_sides"
-            android:text="@string/default_button_text" />
+            android:text="@string/default_button_text"
+            android:onClick="reloadButtonClick"/>
 
     </LinearLayout>
 
