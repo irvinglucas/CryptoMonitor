@@ -27,10 +27,10 @@ public class MainActivity extends Activity {
 
     public void reloadButtonClick(View view) {
 
-        TextView coinValue1 = (TextView) findViewById(R.id.coin_value_1);
-        TextView coinValue2 = (TextView) findViewById(R.id.coin_value_2);
-        TextView coinValue3 = (TextView) findViewById(R.id.coin_value_3);
-        TextView coinValue4 = (TextView) findViewById(R.id.coin_value_4);
+        TextView coinValue1 = findViewById(R.id.coin_value_1);
+        TextView coinValue2 = findViewById(R.id.coin_value_2);
+        TextView coinValue3 = findViewById(R.id.coin_value_3);
+        TextView coinValue4 = findViewById(R.id.coin_value_4);
 
         String aux;
         Random random = new Random();
@@ -41,7 +41,6 @@ public class MainActivity extends Activity {
         coinValue3.setText(aux);
         coinValue4.setText(aux);
     }
-
 
 }
 
