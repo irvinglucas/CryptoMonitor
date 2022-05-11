@@ -29,3 +29,7 @@ Every improvement or tip is really welcome 😁
 * Java
 * Android SDK (API 32)
 * RxJava (for reactive programming)
+
+
+Note: this application is likely to changes, so if you want to track these changes, just watch 
+this repo and you'll be ok :P
